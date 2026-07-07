@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "qiaolezi",
+	"version": "${version}",
+	"name": "巧乐兹",
+	"description": "在我的世界中加入巧乐兹",
+	"authors": [
+		"LYX_114514"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/qiaolezi/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.qiaolezi.Qiaolezi"
+		],
+		"client": [
+			"com.qiaolezi.client.QiaoleziClient"
+		]
+	},
+
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

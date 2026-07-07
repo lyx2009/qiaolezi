@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MLM",
+        "CPC",
+        "SSS"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:snow_block"
+        },
+        "P": {
+            "item": "minecraft:purple_dye"
+        },
+        "C": {
+            "item": "minecraft:sugar"
+        },
+        "L": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "M": {
+            "item": "minecraft:milk_bucket"
+        }
+    },
+    "result": {
+        "id" : "qiaolezi:qiaolezi",
+        "count": 3
+
+    }
+}

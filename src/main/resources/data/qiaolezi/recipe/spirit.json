@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GGG",
+        "CCC",
+        "WWW"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:sugar"
+        },
+        "G": {
+            "item": "minecraft:emerald"
+        },
+        "W": {
+            "item": "minecraft:potion"
+        }
+    },
+    "result": {
+        "id": "qiaolezi:spirit",
+        "count": 3
+    }
+}
