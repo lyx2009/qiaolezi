@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "qiaolezi",
-	"version": "${version}",
+	"version": "B 0.1.0",
 	"name": "巧乐兹",
 	"description": "在我的世界中加入巧乐兹",
 	"authors": [
