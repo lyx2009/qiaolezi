@@ -7,6 +7,10 @@
 ## B 0.1.0 
 加入了,巧乐兹和雪碧,雪碧的贴图还没做完（）
 
+# 更新计划
+1. 雪碧贴图
+2. 张雪峰实体
+
 # License
 
 This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.

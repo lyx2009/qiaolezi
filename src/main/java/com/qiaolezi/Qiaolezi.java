@@ -122,3 +122,4 @@ public class Qiaolezi implements ModInitializer {
 
 // 菩萨保佑不出bug
 // 这Fabric真他妈难写，下次用NeoForge
+// 主要的物品逻辑都在这里
