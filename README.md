@@ -15,6 +15,8 @@
 1. 绘制贴图 
 2. 增加击败音效 
 
+ps:85%的代码都是D老师写的
+
 # License
 
 This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
