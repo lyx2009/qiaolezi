@@ -5,7 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.registry.Registries;
-import net.minecraft.util.Identifier;      // 替代 ResourceLocation
+import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.FoodComponent;
@@ -22,7 +22,6 @@ import net.minecraft.entity.LivingEntity;
 import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 
 public class Qiaolezi implements ModInitializer {
 	public static final String MOD_ID = "qiaolezi";
@@ -59,11 +58,9 @@ public class Qiaolezi implements ModInitializer {
 			.statusEffect(new StatusEffectInstance(StatusEffects.POISON, 100, 2), 0.2f) // 20%概率获得中毒效果
 			.statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 500, 2), 0.2f) // 20%概率获得反胃效果
 			.statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 100, 2), 0.05f) // 5%概率获得瞬间伤害
-
 			.snack()
 			.alwaysEdible()
 			.build()
-
 		)
 		.component(DataComponentTypes.LORE, new LoreComponent(
 			List.of(
@@ -71,7 +68,6 @@ public class Qiaolezi implements ModInitializer {
 			)
 		))
 		.rarity(Rarity.EPIC)
-
 	){
 		@Override
 		public UseAction getUseAction(ItemStack stack) {
@@ -113,6 +109,11 @@ public class Qiaolezi implements ModInitializer {
 	// );
 	// 雪碧酿造台（弃）
 
+		// ============ 注册实体 ============
+		ModEntities.initialize();
+		
+		// ============ 注册生成逻辑（仅下界） ============
+		ModSpawn.initialize();
 	}
 
 	public static Identifier id(String path) {

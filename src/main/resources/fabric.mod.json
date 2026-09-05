@@ -19,7 +19,7 @@
 			"com.qiaolezi.Qiaolezi"
 		],
 		"client": [
-			"com.qiaolezi.client.QiaoleziClient"
+			"com.qiaolezi.client.ModEntityRenderers"
 		]
 	},
 
