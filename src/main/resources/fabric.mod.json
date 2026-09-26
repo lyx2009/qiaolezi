@@ -1,11 +1,12 @@
 {
 	"schemaVersion": 1,
 	"id": "qiaolezi",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"name": "巧乐兹",
 	"description": "在我的世界中加入巧乐兹",
 	"authors": [
-		"LYX_114514"
+		"LYX_114514",
+		"Deepseek-Harness-deepseek-v4-pro"
 	],
 	"contact": {
 		"homepage": "https://github.com/lyx2009",

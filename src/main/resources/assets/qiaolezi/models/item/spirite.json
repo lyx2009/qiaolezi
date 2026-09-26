@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "qiaolezi:item/spirit"
+        "layer0": "qiaolezi:item/spirite"
     }
 }

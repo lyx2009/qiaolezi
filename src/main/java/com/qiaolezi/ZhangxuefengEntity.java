@@ -53,7 +53,7 @@ public class ZhangxuefengEntity extends ZombieEntity {
             
             // 40%概率掉落雪碧
             if (this.random.nextFloat() < 0.4f) {
-                this.dropItem(Qiaolezi.Spirit);
+                this.dropItem(Qiaolezi.Spirite);
             }
             
             // 25%概率掉落灵魂疾行靴子

@@ -49,7 +49,7 @@ public class Qiaolezi implements ModInitializer {
 	);
 	// 巧乐兹逻辑代码
 
-	public static final Item Spirit = new Item(new Item.Settings()
+	public static final Item Spirite = new Item(new Item.Settings()
 		.maxCount(16)
 		.food (new FoodComponent.Builder()
 			.nutrition(2)
@@ -97,15 +97,15 @@ public class Qiaolezi implements ModInitializer {
                 .register(entries -> entries.add(QIAOLEZI));
 		// 巧乐兹注册
 
-		Registry.register(Registries.ITEM, Identifier.of(MOD_ID, "spirit"), Spirit);
+		Registry.register(Registries.ITEM, Identifier.of(MOD_ID, "spirite"), Spirite);
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK)
-				.register(entries -> entries.add(Spirit));
+				.register(entries -> entries.add(Spirite));
 		// 雪碧注册
 
 	// 	BrewingRecipeRegistry.registerPotionRecipe(
 	// 	Potions.WATER,
 	// 	Items.SUGAR,
-	// 	ModPotions.SPIRIT_POTION
+	// 	ModPotions.SPIRITE_POTION
 	// );
 	// 雪碧酿造台（弃）
 
